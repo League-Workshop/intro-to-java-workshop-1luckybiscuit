@@ -17,7 +17,7 @@ public class TriangleShell {
 		// 7. Use a for loop to repeat steps #9 to #10, 60 times
 		for(int i = 0; i<60;i++) {
 			// 9. Change the color of the pen to a random color
-			owo.setPenColor(i,i,i);
+			owo.setRandomPenColor();
 			// 8. Increase the length variable by 10
 			tri = tri+3;
 			// 5. call your drawTriangle() method using your length variable
